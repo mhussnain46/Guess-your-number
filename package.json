@@ -1,0 +1,28 @@
+{
+  "name": "guess-your-number",
+  "version": "1.0.0",
+  "description": "A simple number guessing game to play on CLI.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsc && node ."
+  },
+  "bin": "./index.js",
+  "repository": {
+    "url": "https://github.com/mhussnain46/guess-your-number",
+    "type": "git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.1.2",
+    "chalk-animation": "^2.0.3",
+    "inquirer": "^9.1.4"
+  },
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/chalk-animation": "^1.6.1",
+    "@types/inquirer": "^9.0.3"
+  }
+}
